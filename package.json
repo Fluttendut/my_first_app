@@ -23,7 +23,9 @@
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
-    "@babel/plugin-proposal-export-namespace-from": "^7.18.9"
+    "@babel/plugin-proposal-export-namespace-from": "^7.18.9",
+    "install": "^0.13.0",
+    "npm": "^10.1.0"
   },
   "private": true
 }
