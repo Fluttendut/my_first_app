@@ -10,6 +10,7 @@ import Animated, {
   withSpring,
 } from "react-native-reanimated";
 
+
 const AnimatedImage = Animated.createAnimatedComponent(Image);
 const AnimatedView = Animated.createAnimatedComponent(View);
 
@@ -20,7 +21,6 @@ export default function EmojiSticker({ imageSize, stickerSource }) {
   const scaleImage = useSharedValue(imageSize);
 
   const onDrag = useAnimatedGestureHandler({
-  
     onStart: (event, context) => {
       context.translateX = translateX.value;
       context.translateY = translateY.value;
